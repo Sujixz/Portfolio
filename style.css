@@ -1,0 +1,148 @@
+body {
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar {
+    background-color: #1a1a1a;
+  }
+
+  .navbar a {
+    color: #b892f0;
+  }
+
+  .navbar a:hover {
+    color: #ffffff;
+  }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 15px;
+  }
+
+  .section-box {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 40px 30px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  }
+
+  .section-title {
+    color: #b892f0;
+  }
+
+  .accent {
+    color: #b892f0;
+  }
+
+  .card-custom {
+    background-color: #2b2b2b;
+    border: none;
+    transition: 0.4s ease-in-out;
+  }
+
+  .card-custom:hover {
+    background-color: #b892f0;
+    color: #000;
+    transform: scale(1.05);
+  }
+
+  a {
+    color: #b892f0;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-brand {
+    color: white !important;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  .contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .contact-buttons .btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .btn.gmail {
+    background-color: #db4437;
+  }
+
+  .btn.github {
+    background-color: #333;
+  }
+
+  .btn.linkedin {
+    background-color: #0077b5;
+  }
+
+  .contact-buttons .btn:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+
+  #contact {
+    margin-top: 60px; 
+  }
+  .hero-subtext {
+color: plain white;
+}
+
+
+  /* New mobile responsiveness - won't affect desktop */
+  @media only screen and (max-width: 767px) {
+    .section-box {
+      width: 95%;
+      padding: 30px 20px;
+    }
+    
+    .hero {
+      padding: 60px 20px;
+    }
+    
+    .contact-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .navbar-collapse {
+      background-color: #1a1a1a;
+      padding: 15px;
+      margin-top: 10px;
+    }
+  }
