@@ -124,7 +124,7 @@ color: plain white;
 }
 
 
-  /* New mobile responsiveness - won't affect desktop */
+  /* Responsve*/
   @media only screen and (max-width: 767px) {
     .section-box {
       width: 95%;
