@@ -16,7 +16,9 @@ This is my personal developer portfolio — a fully responsive, clean, and eye-c
 
 📄 Resume? Of course. But no direct download. Gotta earn it.
 
+
 🔧 Tech Stack
+
 HTML5
 
 CSS3
@@ -25,8 +27,10 @@ Bootstrap 5 (for layout & components)
 
 Media Queries (for custom responsiveness tweak)
 
+
 🚀 Live Demo
 https://sujixz.github.io/Portfolio/
+
 
 🧠 Why This Exists:
 I made this to:
@@ -36,6 +40,8 @@ I made this to:
 * Share my work publicly
 
 * And because... LinkedIn bios are so last season 💁‍♂️
+  
 
-🧙‍♂️ Pro Tip
+🧙‍♂️ Pro Tip:
+
 “Don’t just visit it, steal some inspo. That’s what devs do.” 😌
